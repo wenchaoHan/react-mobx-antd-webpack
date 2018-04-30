@@ -1,0 +1,80 @@
+.container {
+  max-width: 1000px;
+}
+
+.side {
+  border: 1px #e9e9e9 solid;
+}
+
+.header {
+  height: 52px;
+  line-height: 52px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px #e9e9e9 solid;
+}
+
+.addCategory {
+  float: right;
+  cursor: pointer;
+}
+
+.antCollapse {
+  overflow-y: auto;
+  height: 425px;
+  border: 0;
+  background-color: white;
+}
+
+.antCollapseItem {
+  border-bottom: 0;
+}
+
+.antCollapseContent {
+  overflow: hidden;
+  height: 48px;
+  line-height: 48px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.antCollapseContent:hover {
+  background-color: #ffece3;
+}
+
+.activeRow {
+  background-color: #ffece3;
+}
+
+.rightBtn {
+  float: right;
+}
+
+.rotateDown {
+  transform: rotate(180deg);
+}
+
+.icon {
+  color: #666;
+  border-color: #d9d9d9;
+}
+
+.deleteicon {
+  color: #f00;
+}
+
+.editicon {
+  color: #87d068;
+}
+
+.goodName {
+  overflow: hidden;
+  padding-right: 10px;
+  text-overflow: ellipsis;
+  display: block;
+  white-space: nowrap;
+}

@@ -1,0 +1,7 @@
+.overflow {
+  max-width: 800px;
+  overflow-y: auto;
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

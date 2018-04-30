@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+///
+// @file button
+///
+
+.ant-btn {
+  &:not(.ant-btn-danger):not(.ant-btn-primary):not(:disabled):hover {
+    background-color: #FFEDE5;
+  }
+  &:not(.ant-btn-danger):not(.ant-btn-primary):active {
+    background-color: #FFCAB2;
+  }
+  &-danger {
+    &:not(:disabled):hover {
+      color: #666;
+      background-color: $white;
+    }
+    &:not(:disabled):active {
+      color: #666;
+      background-color: #F5F5F5;
+    }
+    &:not(:disabled):focus {
+      color: #666;
+      background-color: $white;
+      border-color: #666;
+    }
+  }
+}
+
+a.ant-btn {
+  line-height: 2.3;
+}
+
+a.ant-btn-sm {
+  line-height: 1.6;
+}
+
+a.ant-btn-lg {
+  line-height: 2.1;
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+//
+///@上传
+//
+
+.dragger-wrap {
+  height: 200px;
+  width: 100%;
+  margin: 0 0 30px 0;
+  .ant-upload {
+    background-color: #FBFBFB;
+  }
+}
+
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon {
+  margin-bottom: 0;
+  .anticon {
+    font-size: 40px;
+    margin-top: 0;
+  }
+}
+.ant-upload-list-picture-card .ant-upload-list-item-info:before {
+  left: 0;
+}

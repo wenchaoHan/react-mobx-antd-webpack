@@ -1,0 +1,13 @@
+.plusStyle {
+  margin-left: 0;
+}
+.subBtn {
+  margin-left: 8px;
+  min-width: 40px;
+  display: inline-block;
+  float: none;
+}
+.btnPlusStyle {
+  margin-top: -6px;
+  margin-bottom: 6px;
+}

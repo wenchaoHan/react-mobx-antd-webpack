@@ -1,0 +1,16 @@
+.login-form {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    /*width: 500px;*/
+    /*height: 500px;*/
+    width: 80%;
+
+    font-size:80px;
+    color: #495060;
+}
+
+.login-form-button{
+    width: 100%;
+}

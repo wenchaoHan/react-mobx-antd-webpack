@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+///
+// @file margin
+///
+
+// 距离
+//
+// @param {List} $shadow - 阴影样式参数列表，若缺失参数列表则关闭阴影效果
+@mixin margin-distance($display: left, $distance: 0px) {
+  @if ($display == left) {
+    margin-left: $distance;
+
+  } @else {
+    margin-right: $distance px;
+  }
+}

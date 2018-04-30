@@ -1,0 +1,25 @@
+.form-box
+{
+    width: 85%;
+    vertical-align:middle;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+.form-p
+{
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+.form-input
+{
+    height: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding:10px 30px;
+    vertical-align: middle;
+    float: right;
+    color:#666;
+    white-space:nowrap;
+}

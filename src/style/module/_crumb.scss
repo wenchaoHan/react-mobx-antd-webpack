@@ -1,0 +1,19 @@
+///
+// @file crumb
+///
+
+.ant-breadcrumb {
+  padding: 16px 0;
+  color: #9B9B9B;
+  a {
+    color: #9B9B9B;
+  }
+  a:hover {
+    color: rgba(0, 0, 0, 0.65);
+    text-decoration: underline;
+  }
+  & > span:last-child {
+    color: #4A4A4A;
+    font-weight: normal;
+  }
+}

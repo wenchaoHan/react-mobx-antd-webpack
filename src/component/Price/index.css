@@ -1,0 +1,9 @@
+.rmb {
+  font-size: 12px;
+  font-style: normal;
+  font-family: arial;
+}
+.right {
+  text-align: right;
+  display: inline-block;
+}

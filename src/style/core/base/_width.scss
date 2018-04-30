@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+///
+// @file 宽度
+///
+
+$_width_list: list-merge(list-range(10px, 400px, 10px), list-range(450px, 800px, 50px), (480px, 640px, 720px, 960px, 1000px, 1200px));
+
+@each $_item in $_width_list {
+  $_name: unit-strip($_item);
+
+  .w#{$_name} {
+    width: #{$_item};
+  }
+  form.ant-form .w#{$_name} {
+    width: #{$_item};
+  }
+}
+
+$_width_list_em: list-range(1em, 12em);
+
+@each $_item_em in $_width_list_em {
+  $_name: unit-strip($_item_em);
+
+  .w#{$_name}em {
+    width: #{$_item_em};
+  }
+}

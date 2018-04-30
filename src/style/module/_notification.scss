@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+//
+///@提示
+//
+
+.ant-message-with-icon {
+  .anticon {
+    margin-right: $spacing-small;
+    font-size: 14px;
+    top: 1px;
+    position: relative;
+  }
+}
+
+.bach-ant-notification {
+  position: fixed;
+  z-index: 1010;
+  width: 335px;
+  margin-right: 24px;
+
+  &-notice {
+    border-radius: 4px;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    &-close {
+      position: absolute;
+      right: 16px;
+      top: 10px;
+      color: rgba(0, 0, 0, 0.43);
+      outline: none;
+      text-decoration: none;
+
+      &-x:after {
+        font-size: 12px;
+        content: "\E633";
+        font-family: "anticon";
+        cursor: pointer;
+      }
+    }
+  }
+}

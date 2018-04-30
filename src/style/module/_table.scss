@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+//
+///@table
+//
+
+.ant-table {
+  margin-bottom: $spacing-large;
+  &-row:nth-child(even) {
+    background-color: #F5F5F5;
+  }
+  &-pagination {
+    float: none;
+    text-align: center;
+    margin: -8px 0 $spacing-large;
+  }
+  th.column-money,
+  td.column-money {
+    text-align: right!important;
+  }
+}
+.ant-form .ant-table {
+  margin-bottom: $spacing-small;
+}

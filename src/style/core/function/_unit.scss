@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+///
+// @file 单位操作
+///
+
+// 抹除数值的单位
+//
+// @param {Number} $number [0px] - 带单位的数值
+//
+// @return {Number} 数值的纯数字部分
+@function unit-strip($number: 0px) {
+    @return $number / ($number * 0 + 1);
+}

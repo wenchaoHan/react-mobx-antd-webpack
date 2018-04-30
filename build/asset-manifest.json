@@ -1,0 +1,10 @@
+{
+  "vendor.js": "vendor.js",
+  "vendor.js.map": "vendor.js.map",
+  "views/Home/index.js": "views/Home/index.js",
+  "views/Home/index.js.map": "views/Home/index.js.map",
+  "views/Label/index.js": "views/Label/index.js",
+  "views/Label/index.js.map": "views/Label/index.js.map",
+  "views/Login/index.js": "views/Login/index.js",
+  "views/Login/index.js.map": "views/Login/index.js.map"
+}

@@ -1,0 +1,95 @@
+.widthFull{
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  z-index:0;
+  overflow: hidden;
+}
+.widthFull :global(.ant-select-search__field){
+  border-radius: 0;
+  z-index:0;
+}
+.padding{
+  padding: 16px 15px;
+}
+.cursorPointer{
+  cursor:pointer;
+}
+.cursorPointer:hover{
+  color:#FF5000;
+}
+.marginTop{
+  margin-top: 16px;
+  padding: 0px;
+}
+.marginRight{
+  margin-right: 20px;
+}
+
+.height{
+  height:100vh;
+}
+.modalHeight{
+  height: 638px;
+}
+.ulMg{
+  padding-top: 28px;
+  overflow: hidden;
+}
+.ulMg :global(.ant-transfer-list-content) {
+  height: -moz-calc(100% - 42px);
+  height: -webkit-calc(100% - 42px);
+  height: calc(100% - 42px);
+}
+:global(.ant-transfer-list-content) .dragSpan :global(.ant-tree-switcher){
+  display:none;
+}
+.drag :global(.ant-tree-node-content-wrapper){
+  width:100%;
+}
+.listPadding :global(.ant-transfer-list-content-item){
+  padding:7px 5px;
+}
+.li{
+  width: 100%;
+  overflow: hidden;
+}
+.li:hover{
+  color:#FF5000;
+}
+.left{
+  padding-left: 15px;
+}
+.spanPadding{
+  padding-left: 24px;
+}
+
+:global(.ant-transfer-list-content) .clickOver :global(.ant-tree-node-content-wrapper.ant-tree-node-selected){
+  color:#FF5000;
+  background-color:#fff1eb;
+}
+.title{
+  padding: 20px 15px 0px;
+  overflow: hidden;
+}
+.titlePadding{
+  padding-left:20px;
+}
+.operate{
+  padding-right: 40px;
+}
+.userPadding{
+  padding-left:28px;
+}
+.userSpanWidth{
+  display: inline-block;
+  width: 40px;
+  vertical-align: top;
+}
+.userProductName{
+  padding-left:28px;
+  display: inline-block;
+  width: 200px;
+  white-space: normal;
+  vertical-align: top;
+}

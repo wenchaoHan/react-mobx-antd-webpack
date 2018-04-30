@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+//
+///@menu
+//
+
+.ant-menu {
+  background-color: #F7F7F7;
+  &-inline {
+    border: none;
+  }
+  &-item {
+    background-color: #F7F7F7;
+  }
+  &-submenu-title {
+    border-bottom: 1px solid #E9E9E9;
+  }
+  &-sub.ant-menu-inline {
+    border-bottom: 1px solid #E9E9E9;
+  }
+  &:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #FFF;
+    a {
+      text-decoration: none;
+    }
+  }
+  &-item:not(.ant-menu-item-selected) {
+    border-right: 1px solid #E9E9E9;
+
+    a {
+      text-decoration: none;
+    }
+  }
+  &-root {
+    > .ant-menu-item {
+      border-bottom: 1px solid #E9E9E9;
+      a {
+        color: rgba(0, 0, 0, 0.65);
+      }
+    }
+    > .ant-menu-item-active a {
+      color: $primary-color;
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.header {
+  padding:0;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  left: 0;
+  top: 0;
+}
+
+.hideHeader {
+  display: none;
+  position: fixed;
+  z-index: 1;
+}
+
+:global(.ant-layout) .bodyWrapper {
+  position: absolute;
+  top: 64px;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.side {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  z-index: 1;
+  background: #F7F7F7;
+  border-right: 1px solid #E9E9E9;
+}
+
+.menuIcon {
+  font-family: "bach-erp";
+  font-style: normal;
+  font-size: 14px;
+  vertical-align: middle;
+  margin-right: 13px;
+}
+
+.subTitle {
+  font-size: 14px;
+  margin-left: 29px;
+}
+
+.hideSide {
+  display: none;
+}
+
+.crumb {
+  padding: 16px 0;
+}
+
+.bodyWrapper {
+  position: 'absolute';
+  top: 64;
+  zIndex: 0;
+  width: '100%';
+}
+
+.contentWrap {
+  width: -moz-calc(100% - 200px);
+  width: -webkit-calc(100% - 200px);
+  width: calc(100% - 200px);
+  position: relative;
+  margin-left: 200px;
+  padding: 0 16px 16px;
+  height: 100%;
+}
+
+.content {
+  padding: 16px 24px;
+  background-color: #FFF;
+  min-height: 768px;
+  min-width: 1000px;
+  border: 1px solid #E9E9E9;
+}
+
+.contentExpand {
+  width: 100%;
+  position: relative;
+  padding: 0 16px 16px;
+  height: 100%;
+}
+
+.div-menu{
+  height: 100%;
+  background: #F7F7F7;
+}

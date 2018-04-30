@@ -1,0 +1,37 @@
+.subtitle {
+  color: #9b9b9b;
+}
+.fileWrap {
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 300px;
+  display: inline-block;
+}
+.draggerWrap {
+  height: 200px;
+}
+.downwrap {
+  color: #4A4A4A;
+  display: block;
+  height: 65px;
+  width: 400px;
+  background-color: #F5F5F5;
+  margin-bottom: 16px;
+}
+.iconWrap {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  border: 2px solid #87D068;
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 65px;
+  color: #87D068;
+}
+.title {
+  margin-left: 16px;
+}
+.icon {
+  font-size: 24px;
+}
